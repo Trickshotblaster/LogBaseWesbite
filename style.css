@@ -1,0 +1,40 @@
+:root {
+  --bg: rgb(20, 20, 20);
+  --text: whitesmoke;
+  --input: rgb(200, 200, 200);
+}
+
+/* Remove number arrows, used from w3 schools*/
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+button {
+  background-color: var(--input);
+  border: none;
+  border-radius: 3px;
+}
+
+input {
+  background-color: var(--input);
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+body {
+  font-family: Raleway, sans-serif;
+  font-weight: 600;
+  color: var(--text);
+  background-color: var(--bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
